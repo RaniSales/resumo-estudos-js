@@ -1,1 +1,1 @@
-# resumo-estudos-js
+# resumo-estudos-javascritpt
