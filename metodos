@@ -34,6 +34,7 @@ console.log(word.toupperCase()) //irá imprimir na tela EU SOU UM TEXTO
 //toUpperCase()
 //-------------------------------------------------------------
 
+
 //QUANDO QUERO VERIFICAR UMA PALAVRA EXPECIFICA DENTRO DA STRING COM (INCLUDES)- LEMBRANDO QUE O INCLUDES É CASE SENSITIVE-
 
 let frase = "eu sou uma string"
@@ -42,6 +43,41 @@ console.log(frase.includes("texto")// ele irá retornar false pois a palavra tex
 //includes()
 //-------------------------------------------------------------
 
+//(LENGTH) CONTA OS ITENS 
 
+//ex:
+
+console.log(["a","b","c"].length)// irá retornar 3 pois tem 3 itens dentro do array
+
+//--------------------------------------------------------------
+
+//ADICIONANDO ITEM NO FIM DE UM ARRAy COM (PUSH)
+
+let tech= ["html", "css", "js"]
+console.log(tech.push("nodejs"))// adicionou o nodejs no final do array tech  
+
+//--------------------------------------------------------------
+
+//ADICIONANDO ITEM NO INICIO DO ARRAY COM (UNSHIFT)
+
+let tech= ["html", "css", "js"]
+console.log(tech.unshift("nodejs"))// adicionou o nodejs no inicio  do array tech. Irá retornar -> nodejs,html, css, js 
+
+//--------------------------------------------------------------
+
+//REMOVER ITEM DO FINAL DO ARRAY COM (POP)
+
+Let tech= ["html", "css", "js"]
+
+console.log(tech.pop()) // removeu js que estava no fim do array
+
+//------------------------------------------------------------
+
+//REMOVENDO DO INICIO DO ARRAY
+
+let tech= ["html", "css", "js"]
+console.log(tech.shift())  // removeu html do inicio do array
+
+//----------------------------------------------------------
 
 
