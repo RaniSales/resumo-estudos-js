@@ -1,0 +1,47 @@
+//MÉTODOS
+
+//---------------------------------------------------------
+
+//casas decimais (TOFIXED)
+
+ex: let number = 25.256565
+console.log(number.toFixed(2) // está trazendo apenas duas casas após o ponto 25.25, este método serve como manipulação de decimais.
+
+//toFixed() aqui dentro você coloca a quantidade de casas decimais que você quer.
+//----------------------------------------------------------
+
+//TROCA ALGO POR OUTRO COM (REPLACE)
+
+ex: let number = 25.256565
+console.log(number.toFixed(2).replace(".",",") // neste exemplo ele está tanto colocando duas casas decimais com o tofixed, quanto trocando o ponto por vírgula com o replace.
+
+//replace("","") dentro das aspas você coloca o que você quer trocar.
+//-----------------------------------------------------------
+
+//DEIXANDO UM TEXTO TODO MINÚSCULO COM (TOLOWERCASE)
+
+let word = "Eu Sou Um Texto"
+console.log(word.toLowerCase()) //irá imprimir na tela eu sou um texto
+
+//toLowerCASE()
+//------------------------------------------------------------
+
+//DEIXANDO UM TEXTO TODO MAIÚSCULO COM (TOUPPERCASE)
+
+let word = "Eu Sou Um Texto"
+console.log(word.toupperCase()) //irá imprimir na tela EU SOU UM TEXTO
+
+//toUpperCase()
+//-------------------------------------------------------------
+
+//QUANDO QUERO VERIFICAR UMA PALAVRA EXPECIFICA DENTRO DA STRING COM (INCLUDES)- LEMBRANDO QUE O INCLUDES É CASE SENSITIVE-
+
+let frase = "eu sou uma string"
+console.log(frase.includes("texto")// ele irá retornar false pois a palavra texto não existe dentro da frase
+
+//includes()
+//-------------------------------------------------------------
+
+
+
+
